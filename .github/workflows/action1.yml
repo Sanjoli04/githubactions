@@ -1,0 +1,8 @@
+name: action1
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest 
+    steps:
+      - name: 23f1002254@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
